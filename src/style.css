@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.message {
+    font-family: sans-serif;
+    color: #555555;
+    text-transform: lowercase;
+}
+
+.container {
+    margin: 2% 0 0 2%;
+}

@@ -1,0 +1,66 @@
+.gist-view {
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 14px;
+    min-height: 50px;
+}
+
+.gist-view > .clear {
+    float: none;
+    clear: both;
+}
+
+.gist-view > .content-wrap, .gist-view > .img-wrap {
+    display: inline-block;
+    float: left;
+}
+
+.gist-view .img-wrap {
+    width: 50px;
+    height: auto;
+    overflow: hidden;
+}
+
+.gist-view .img-wrap img {
+    max-width: 50px;
+}
+
+.gist-view > .content-wrap > a {
+    padding-left: 10px;
+    color: #555555;
+    font-family: monospace;
+}
+
+.gist-view > .content-wrap > a:visited {
+    color: #999999;
+}
+
+.gist-view > .content-wrap > a:hover {
+    color: #333333;
+}
+
+.gist-view .tags-wrap {
+    margin: 5px 0 0 10px;
+}
+
+.gist-view .tags-wrap > .tag {
+    background-color: #EEEEEE;
+    color: #555555;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    text-transform: lowercase;
+    display: inline-block;
+    margin: 4px 4px 0 0;
+}
+
+.gist-view .forks-wrap {
+    margin-left: 60px;
+    color: #999999;
+    font-size: 13px;
+}
+
+.gist-view .forks-wrap > .img-wrap {
+    float: left;
+    margin-right: 5px;
+}
