@@ -1,5 +1,6 @@
 ## Gist Viewer
-> A tiny react and redux based app that shows a listing of gists for a github user.
+
+This is a small React and Redux based appllication that shows a listing of gists for a GitHub user.
 
 ### Setup
 
